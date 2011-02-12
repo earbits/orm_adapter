@@ -1,6 +1,7 @@
 require 'mongo_mapper'
 
 module MongoMapperToOrmAdapter
+   extend ActiveSupport::Concern
     module ClassMethods
       include OrmAdapter::ToAdapter
     end
