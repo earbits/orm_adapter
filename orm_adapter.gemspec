@@ -25,6 +25,6 @@ Gem::Specification.new do |s|
   s.add_development_dependency "rake", ">= 0.8.7"
   s.add_development_dependency "bson_ext", ">= 1.1.5"
   s.add_development_dependency "rspec", ">= 2.4.0"
-  s.add_development_dependency "mongo_mapper", ">= 0.8.4"
+  #s.add_development_dependency "mongo_mapper", ">= 0.8.4"
 end
 
